@@ -52,7 +52,7 @@ final class AlbumTitleView: UIView {
         super.awakeFromNib()
         
         // Set image
-        albumButton?.setImage(arrowDownImage, for: UIControlState())
+//        albumButton?.setImage(arrowDownImage, for: UIControlState()) TEST
     }
     
     lazy var arrowDownImage: UIImage? = {
