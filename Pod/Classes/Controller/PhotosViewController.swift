@@ -243,11 +243,11 @@ final class PhotosViewController : UICollectionViewController {
                         // Special case if we have selected 1 image and that is
                         // the max number of allowed selections
                         if (photosDataSource.selections.count == 1 && self.settings.maxNumberOfSelections == 1) {
-                            btn.bs_setTitleWithoutAnimation("\(doneBarButtonTitle)", forState: UIControlState())
+//                            btn.bs_setTitleWithoutAnimation("\(doneBarButtonTitle)", forState: UIControlState())
                         } else if photosDataSource.selections.count > 0 {
-                            btn.bs_setTitleWithoutAnimation("\(doneBarButtonTitle) (\(photosDataSource.selections.count))", forState: UIControlState())
+//                            btn.bs_setTitleWithoutAnimation("\(doneBarButtonTitle) (\(photosDataSource.selections.count))", forState: UIControlState())
                         } else {
-                            btn.bs_setTitleWithoutAnimation(doneBarButtonTitle, forState: UIControlState())
+//                            btn.bs_setTitleWithoutAnimation(doneBarButtonTitle, forState: UIControlState())
                         }
                         
                         // Enabled?
