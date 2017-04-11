@@ -77,8 +77,8 @@ final class PhotoCell: UICollectionViewCell {
         if selected == true {
             self.selectionView.alpha = 1.0
             self.selectionOverlayView.alpha = 1.0
-            self.selectionOverlayView.layer.borderWidth = 1.0
-            self.selectionOverlayView.layer.borderColor = UIColor.red.cgColor
+            self.selectionOverlayView.layer.borderWidth = 3.0
+            self.selectionOverlayView.layer.borderColor = UIColor(red: 96.0/255.0, green: 195.0/255.0, blue: 178.0/255.0, alpha: 1.0).cgColor
         } else {
             self.selectionView.alpha = 0.0
             self.selectionOverlayView.alpha = 0.0
